@@ -64,7 +64,6 @@ int main() {
     cout << "Zero elements: ";
     printArray(zeros, zeroSize);
 
-    // Звільнення виділеної пам'яті
     delete[] positives;
     delete[] negatives;
     delete[] zeros;
